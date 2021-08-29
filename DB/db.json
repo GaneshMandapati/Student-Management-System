@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "class": 1,
+      "name": "Ganesh",
+      "phone": "1234567890",
+      "email": "ganesh@gmail.com"
+    },
+    {
+      "id": 2,
+      "class": 10,
+      "name": "Goutham",
+      "phone": "1234567890",
+      "email": "goutham@gmail.com"
+    },
+    {
+      "id": 3,
+      "class": 11,
+      "name": "Ganesh2",
+      "phone": "1234567890",
+      "email": "ganesh2@gmail.com"
+    },
+    {
+      "id": 4,
+      "class": 8,
+      "name": "Goutham2",
+      "phone": "1234567890",
+      "email": "goutham2@gmail.com"
+    }
+  ]
+}
