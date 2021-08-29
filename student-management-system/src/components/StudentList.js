@@ -2,6 +2,8 @@ import React from 'react';
 import { useState,useEffect } from 'react';
 import axios from "axios";
 import { Container, Table } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEdit,faTrash } from '@fortawesome/free-solid-svg-icons'
 
 export default function StudentList() {
   const [studentData, setstudentData] = useState([]);
@@ -24,7 +26,8 @@ export default function StudentList() {
         <th>Class</th>
         <th>Phone</th>
         <th>Email</th>
-         <th>Actions</th>
+        <th>Edit</th>
+        <th>Delete</th>
       </tr>
     </thead>
     <tbody>
@@ -37,7 +40,8 @@ export default function StudentList() {
                 <td>{student.class}</td>
                <td>{student.phone}</td>
                <td>{student.email}</td>
-               <td></td>
+               <td><FontAwesomeIcon icon={faEdit} color="blue" /></td>
+                <td><FontAwesomeIcon icon={faTrash} color="red" /></td>
                </tr>
              ) 
           })
